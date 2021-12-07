@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "moleto",
+    "Departamento": "",
+    "Categoria": "MOLETOM"
+  },
+  {
+    "Name": "cropped",
+    "Departamento": "",
+    "Categoria": "CROPPED"
+  },
+  {
+    "Name": "tenis",
+    "Departamento": "CALÇADOS",
+    "Categoria": "TÊNIS"
+  },
+  {
+    "Name": "chinelo",
+    "Departamento": "CALÇADOS",
+    "Categoria": "CHINELOS"
+  },
+  {
+    "Name": "gloss",
+    "Departamento": "BELEZA",
+    "Categoria": "GLOSS LABIAL"
+  },
+  {
+    "Name": "hidratante",
+    "Departamento": "BELEZA",
+    "Categoria": "PERFUMES"
+  },
+  {
+    "Name": "perfume",
+    "Departamento": "BELEZA",
+    "Categoria": "PERFUMES"
+  },
+  {
+    "Name": "body mist",
+    "Departamento": "BELEZA",
+    "Categoria": "BODY MIST"
+  },
+  {
+    "Name": "bolsa",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "BOLSAS"
+  },
+  {
+    "Name": "vestido",
+    "Departamento": "",
+    "Categoria": "VESTIDOS"
+  }
+]

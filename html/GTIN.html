@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Planilha Social</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html">Cadastro de Produtos</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"></ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header-->
+      <header class="bg-dark py-5">
+        <div class="container px-6">
+          <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5 text-center text-xl-start">
+                <h1 class="display-5 fw-bolder text-white mb-2">
+                  Cadastro de produtos "Social E-commerce"
+                </h1>
+                <p class="lead fw-normal text-white-50 mb-4">
+                  A planilha obtém 3 metódos de construção. Portanto, ler
+                  produtos de um xml, referenciar datas especificas de cadastro
+                  dos produtos e manusear alguns GTINS.
+                </p>
+                <div
+                  class="
+                    d-grid
+                    gap-3
+                    d-sm-flex
+                    justify-content-sm-center justify-content-xl-start
+                  "
+                >
+                  <a class="btn btn-outline-light btn-lg px-4" href="index.html"
+                    >XML</a
+                  >
+                  <a class="btn btn-primary btn-lg px-4" href="#!">GTIN</a>
+                  <a class="btn btn-outline-light btn-lg px-4" href="data.html"
+                    >DATA</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 text-center">
+              < class="row justify-content-center align-items-center">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"></label>
+                  <span class="input-group-text"
+                    >Example: 123453,234556 ou 123455 343228</span
+                  >
+                  <textarea class="form-control" id="text" rows="3"></textarea>
+                </div>
+              </form>
+              <div
+                class="row justify-content-center align-items-center"
+                id="btnenviar"
+              >
+                <button
+                  style="
+                    width: 40%;
+                    height: 40px;
+                    border-radius: 10px;
+                    margin-top: 40px;
+                  "
+                  onclick="enviarGtin()"
+                >
+                  Enviar
+                </button>
+              </div>
+              <div
+                class="row justify-content-center align-items-center d-none"
+                id="load"
+              >
+                <button
+                  style="
+                    width: 40%;
+                    height: 40px;
+                    border-radius: 10px;
+                    margin-top: 40px;
+                  "
+                  onclick="enviarGtin()"
+                >
+                  <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only"></span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <body class="bg-dark">
+        <div
+          class="continer px-6 bg-dark"
+          style="width: 100%; height: 100%"
+        ></div>
+      </body>
+      <!-- Features section-->
+    </main>
+    <!-- Footer-->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+[
+    {
+      "Name": "calça jeans",
+      "Departamento": "JEANS",
+      "Categoria": "CALÇA JEANS"
+    },
+    {
+        "Name": "camis",
+        "Departamento": "ROUPAS",
+        "Categoria": "CAMISAS"
+    },
+    {
+        "Name": "maiô",
+        "Departamento": "MODA PRAIA",
+        "Categoria": "MAIÔ"
+    },
+    {
+        "Name": "maio",
+        "Departamento": "MODA PRAIA",
+        "Categoria": "MAIÔ"
+    },
+    {
+        "Name": "biquini",
+        "Departamento": "MODA PRAIA",
+        "Categoria": "BIQUINIS"
+    },
+    {
+        "Name": "shorts jeans",
+        "Departamento": "JEANS",
+        "Categoria": "SHORTS JEANS"
+    },
+    {
+        "Name": "jaqueta jeans",
+        "Departamento": "JEANS",
+        "Categoria": "JAQUETA JEANS"
+    },
+    {
+        "Name": "lilian",
+        "Departamento": "ACESSÓRIOS",
+        "Categoria": "LENÇOS"
+    },
+    {
+        "Name": "bolsa",
+        "Departamento": "ACESSÓRIOS",
+        "Categoria": "BOLSAS"
+    },
+    {
+        "Name": "shorts",
+        "Departamento": "ROUPAS",
+        "Categoria": "SHORTS E BERMUDAS"
+    },
+    {
+        "Name": "bermuda",
+        "Departamento": "ROUPAS",
+        "Categoria": "SHORTS E BERMUDAS"
+    } 
+]

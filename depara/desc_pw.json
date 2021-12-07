@@ -1,0 +1,107 @@
+[
+  {
+    "Name": "perfume",
+    "Departamento": "PERFUMES E CUIDADOS",
+    "Categoria": "PERFUME"
+  },
+  {
+    "Name": "desodo",
+    "Departamento": "PERFUMES E CUIDADOS",
+    "Categoria": "DESODORANTE"
+  },
+  {
+    "Name": "bone",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "BONÉ"
+  },
+  {
+    "Name": "bolsa",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "BOLSA"
+  },
+  {
+    "Name": "carteira",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "CARTEIRA"
+  },
+  {
+    "Name": "mochila",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "MOCHILA"
+  },
+  {
+    "Name": "jaqueta",
+    "Departamento": "",
+    "Categoria": "CASACOS E JAQUETAS"
+  },
+  {
+    "Name": "garrafas",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "GARRAFA"
+  },
+  {
+    "Name": "manta",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "MANTAS"
+  },
+  {
+    "Name": "len",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "LENÇOS E CACHECOL"
+  },
+  {
+    "Name": "cachecol",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "LENÇOS E CACHECOL"
+  },
+  {
+    "Name": "sapatenis",
+    "Departamento": "CALÇADOS",
+    "Categoria": "SAPATÊNIS"
+  },
+  {
+    "Name": "tenis",
+    "Departamento": "CALÇADOS",
+    "Categoria": "TÊNIS"
+  },
+  {
+    "Name": "chinelo",
+    "Departamento": "CALÇADOS",
+    "Categoria": "CHINELO"
+  },
+  {
+    "Name": "scarpin",
+    "Departamento": "CALÇADOS",
+    "Categoria": "SCARPIN "
+  },
+  {
+    "Name": "cueca",
+    "Departamento": "MODA ÍNTIMA",
+    "Categoria": "CUECA"
+  },
+  {
+    "Name": "cropped",
+    "Departamento": "",
+    "Categoria": "CROPPED"
+  },
+  {
+    "Name": "vestido",
+    "Departamento": "",
+    "Categoria": "VESTIDO"
+  },
+  {
+    "Name": "macaquinho",
+    "Departamento": "",
+    "Categoria": "MACACÃO"
+  },
+  {
+    "Name": "cinto",
+    "Departamento": "ACESSÓRIOS",
+    "Categoria": "CINTO"
+  },
+  {
+    "Name": "moleto",
+    "Departamento": "",
+    "Categoria": "MOLETOM"
+  }
+]

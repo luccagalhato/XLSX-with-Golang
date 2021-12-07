@@ -1,0 +1,79 @@
+package main
+
+import (
+	"fmt"
+	"regexp"
+	"strconv"
+	"strings"
+	"unicode"
+)
+
+func mainn() {
+	str := "Lucca Santos Galhato 000110203"
+	str2 := strings.Split(str, " ")
+	last := str2[len(str2)-1]
+
+	_, err := strconv.Atoi(last)
+	var descProduto []string
+	if err != nil {
+		descProduto = str2[1:]
+	} else {
+		sl := str2[:len(str2)-1]
+		descProduto = sl[1:]
+
+	}
+
+	fmt.Println()
+
+	// str2 := strings.Split(str, " ")
+
+	// last := str2[len(str2)-1]
+
+	// sl := str2[:len(str2)-1] // tira o ultimo elemento da Lista
+	// fmt.Println(sl) // remove o ultimo
+	// fmt.Println(str2[1:]) // remove o primeiro
+	// fmt.Println(last) // ultimo da lista
+
+	// i, err := strconv.Atoi(last)
+	// if err != nil {
+	// 	// handle error
+	// 	fmt.Println(err)
+	// 	os.Exit(2)
+	// }
+	// fmt.Println(i)
+	//fmt.Println(uniseg.GraphemeClusterCount(str))
+}
+
+func maxSentenceWords(s string) int {
+	maxWords, nWords := 0, 0
+	inWord := false
+	for _, r := range s {
+		switch r {
+		case '.', '?', '!':
+			inWord = false
+			if maxWords < nWords {
+				maxWords = nWords
+			}
+			nWords = 0
+		default:
+			if unicode.IsSpace(r) {
+				inWord = false
+			} else if inWord == false {
+				inWord = true
+				nWords++
+			}
+		}
+		if maxWords < nWords {
+			maxWords = nWords
+		}
+	}
+	return maxWords
+}
+func WordCount(value string) int {
+	// Match non-space character sequences.
+	re := regexp.MustCompile(`[\S]+`)
+
+	// Find all matches and return count.
+	results := re.FindAllString(value, -1)
+	return len(results)
+}
